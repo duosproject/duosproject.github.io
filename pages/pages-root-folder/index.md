@@ -4,49 +4,101 @@
 # inserted automagically in the webpage. To make
 # this work, you have to use › layout: frontpage
 #
-layout: frontpage
-header:
-  image_fullwidth: header_unsplash_12.jpg
-widget1:
-  title: "Blog & Portfolio"
-  url: 'http://phlow.github.io/feeling-responsive/blog/'
-  image: widget-1-302x182.jpg
-  text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
-widget2:
-  title: "Why use this theme?"
-  url: 'http://phlow.github.io/feeling-responsive/info/'
-  text: '<em>Feeling Responsive</em> is heavily customizable.<br/>1. Language-Support :)<br/>2. Optimized for speed and it&#39;s responsive.<br/>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br/>4. Seven different Headers.<br/>5. Customizable navigation, footer,...'
-  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
-widget3:
-  title: "Download Theme"
-  url: 'https://github.com/Phlow/feeling-responsive'
-  image: widget-github-303x182.jpg
-  text: '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. Grab the <a href="https://github.com/Phlow/feeling-responsive/tree/bare-bones-version">Bare-Bones-Version</a> for a fresh start or learn how to use it with the <a href="https://github.com/Phlow/feeling-responsive/tree/gh-pages">education-version</a> with sample posts and images. Then tell me via Twitter <a href="http://twitter.com/phlow">@phlow</a>.'
-#
-# Use the call for action to show a button on the frontpage
-#
-# To make internal links, just use a permalink like this
-# url: /getting-started/
-#
-# To style the button in different colors, use no value
-# to use the main color or success, alert or secondary.
-# To change colors see sass/_01_settings_colors.scss
-#
-callforaction:
-  url: https://tinyletter.com/feeling-responsive
-  text: Inform me about new updates and features ›
-  style: alert
+layout: page
+
 permalink: /index.html
 #
 # This is a nasty hack to make the navigation highlight
 # this page as active in the topbar navigation
 #
 homepage: true
+
+title: DUOS Project
+tagline: Dataset-Utilization Open Search
+description: Extracting detailed metadata about datasets and methodologies from economic research papers
 ---
 
-<div id="videoModal" class="reveal-modal large" data-reveal="">
-  <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <a class="close-reveal-modal">&#215;</a>
-</div>
+[DUOS Project](http://www.duosproject.org) tackles the problem of
+extracting automatically and semi-automatically the relationships
+between publications, datasets, and methodologies.  Our primary focus
+is on research articles in economics.  From each article we extract
+details about specific datasets used, including variables and time
+periods as well as methodologies and techniques.
+
+## History
+
+In order to validate our conjecture about the difficulty of the
+problem of extracting linkages between articles, data, and
+methodologies and lay the groundwork for designing and developing a
+comprehensive solution, we conducted a small pilot project working
+with staff at the Center for the Advancement of Data and Research in
+Economics (CADRE) at the Federal Reserve Bank of Kansas City.  The
+goal of this project was to capture information on input datasets and
+methodologies for a subset of academic papers that use the CPS
+data. The results of this pilot project inspired the development of
+DUOS.
+
+## Motivation
+
+Datasets play a pivotal role in economic research.  For example, the
+   Current Population Survey (CPS), a statistical survey
+   conducted by the United States Census Bureau, has been
+   administered since 1948 and has been used in thousands of
+   academic publications. While a search for "Current Population
+   Survey" on Google Scholar returns more than 100,000 [results](https://scholar.google.com/scholar?q="Current+Population+Survey"), a
+   simple mention of the dataset in an article is not sufficient
+   evidence of the dataset’s use within that research.  Many of
+   the articles are about the survey itself rather than about
+   its use as an input dataset to answer a research question.
+   Indeed, a substantial number of references simply mention why
+   the CPS was not used to answer a particular research
+   question. While a helpful general statistic, keyword search
+   results do not provide enough context to fully understand
+   dataset usage.  Furthermore, even for articles in the search
+   result which use the CPS data, the reference may appear just
+   in the body of the text, often without sufficient detail to
+   allow for meaningful identification. For example, the
+   specific details of what portions of the CPS data were used
+   in the study as well as the specific methodologies and
+   techniques utilized may be contained in the full text of the
+   article, can sometimes be found in the captions and legends
+   of graphs and figures, and could possibly appear in an
+   appendix or a separate data specific file.  Consequently,
+   finding all publications that use a particular portion of the
+   CPS data (e.g. all data from 1994 to 2014) is a complex and
+   time consuming task
+
+
+## Use Cases of DUOS
+
+* Comprehensive Literature Review
+* Dataset Utilization
+* Approaching New Datasets
+* Generating New Research Applications   
+
+We fully expect that DUOS will be used in conjunction with already
+existing resources such as JSTOR, Web of Science by Thomson Reuters,
+and Google Scholar.  Depending on the particular task, DUOS can be
+used before, after, or alongside any of these research resources.
+
+## Technical Details
+
+### Partial ERD of the collected data 
+
+![ERD](assets/img/DUOS_ERD_articles.png)
+
+The DUOS Team includes:
+
+- [Svetlozar Nestorov](http://www.luc.edu/quinlan/faculty/svetlozarnestorov.shtml) (PI) 
+- [Nenad Jukic](http://www.luc.edu/quinlan/faculty/nenadjuki.shtml) (co-PI)
+- [Mary Malliaris](http://www.luc.edu/quinlan/faculty/marymalliaris.shtml) (co-PI)
+- [Abhishek Sharma](http://www.luc.edu/quinlan/faculty/abhisheksharma.shtml) (co-PI)
+- [San Cannon](https://www.kansascityfed.org/people/sandracannon) (advisor)
+
+Student Research Assistants:
+
+- Kelly Bryant
+- Christopher Beemer
+- Jordan Goodmanson
+- John Dwyer
+
