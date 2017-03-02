@@ -68,12 +68,7 @@ body.video cite { color: #fff; }
 /* Masthead
 ------------------------------------------------------------------- */
 
-#masthead {
-    background-color: $primary-color;
-}
-#masthead-no-image-header {
-    background-color: $primary-color;
-}
+
 #masthead-with-text {
     text-align: center;
     font-size: rem-calc(54);
@@ -86,7 +81,8 @@ body.video cite { color: #fff; }
     height: 175px;
 }
 #masthead-no-image-header #logo img {
-    margin-top: 60px;
+    margin-top: 20px;
+    margin-left: 30%
 }
 
 /* Masthead › small-only
