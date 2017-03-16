@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 show_meta: false
 title: "Use Cases"
 subheadline: "Use Cases of the DUOS Project"

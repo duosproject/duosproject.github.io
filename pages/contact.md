@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 title: "Contact"
 meta_title: "Contact"
 subheadline: "Get in touch with the DUOS team"
