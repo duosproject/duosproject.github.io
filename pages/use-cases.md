@@ -2,9 +2,10 @@
 layout: page-fullwidth
 show_meta: false
 title: "Use Cases"
-subheadline: "Use Cases of the DUOS Project"
 teaser:
 header:
+    background-color: "#ffbb6c"
+    image:
 permalink: "/use-cases/"
 ---
 * Comprehensive Literature Review

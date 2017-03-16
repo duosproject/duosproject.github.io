@@ -2,9 +2,10 @@
 layout: page-fullwidth
 show_meta: false
 title: "Team"
-subheadline: "The DUOS Team"
-teaser:
 header:
+    background-color: "#ffbb6c"
+    image: 
+teaser:
 permalink: "/team/"
 ---
 
