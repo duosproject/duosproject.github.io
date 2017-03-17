@@ -4,7 +4,7 @@
 # inserted automagically in the webpage. To make
 # this work, you have to use › layout: frontpage
 #
-layout: page
+layout: page-fullwidth
 
 permalink: /index.html
 #
@@ -68,37 +68,4 @@ Datasets play a pivotal role in economic research.  For example, the
    CPS data (e.g. all data from 1994 to 2014) is a complex and
    time consuming task
 
-
-## Use Cases of DUOS
-
-* Comprehensive Literature Review
-* Dataset Utilization
-* Approaching New Datasets
-* Generating New Research Applications   
-
-We fully expect that DUOS will be used in conjunction with already
-existing resources such as JSTOR, Web of Science by Thomson Reuters,
-and Google Scholar.  Depending on the particular task, DUOS can be
-used before, after, or alongside any of these research resources.
-
-## Technical Details
-
-### Partial ERD of the collected data 
-
-![ERD](assets/img/DUOS_ERD_articles.png)
-
-The DUOS Team includes:
-
-- [Svetlozar Nestorov](http://www.luc.edu/quinlan/faculty/svetlozarnestorov.shtml) (PI) 
-- [Nenad Jukic](http://www.luc.edu/quinlan/faculty/nenadjuki.shtml) (co-PI)
-- [Mary Malliaris](http://www.luc.edu/quinlan/faculty/marymalliaris.shtml) (co-PI)
-- [Abhishek Sharma](http://www.luc.edu/quinlan/faculty/abhisheksharma.shtml) (co-PI)
-- [San Cannon](https://www.kansascityfed.org/people/sandracannon) (advisor)
-
-Student Research Assistants:
-
-- Kelly Bryant
-- Christopher Beemer
-- Jordan Goodmanson
-- John Dwyer
 

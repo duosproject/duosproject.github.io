@@ -68,12 +68,7 @@ body.video cite { color: #fff; }
 /* Masthead
 ------------------------------------------------------------------- */
 
-#masthead {
-    background-color: $primary-color;
-}
-#masthead-no-image-header {
-    background-color: $primary-color;
-}
+
 #masthead-with-text {
     text-align: center;
     font-size: rem-calc(54);
@@ -83,10 +78,11 @@ body.video cite { color: #fff; }
     text-shadow: 0 2px 3px rgba(0,0,0,.4);
 }
 #masthead-no-image-header {
-    height: 175px;
+    height: 50px;
 }
 #masthead-no-image-header #logo img {
-    margin-top: 60px;
+    margin-top: 20px;
+    margin-left: 30%
 }
 
 /* Masthead › small-only
@@ -147,16 +143,16 @@ body.video cite { color: #fff; }
         margin-top: 80px;
     }
     #masthead {
-        height: 310px;
+        height: 30px;
     }
     #masthead-with-pattern {
         padding: 30px 0;
     }
     #masthead-with-background-color {
-        padding: 30px 0;
+        padding: 10px 0;
     }
     #masthead-with-text {
-        height: 330px;
+        height: 30px;
         padding: 60px 0;
     }
 }
@@ -170,17 +166,17 @@ body.video cite { color: #fff; }
         margin-top: 110px;
     }
     #masthead {
-        height: 380px;
+        height: 30px;
     }
     #masthead-with-pattern {
         padding: 45px 0;
     }
     #masthead-with-background-color {
-        padding: 45px 0;
+        padding: 10px 0;
     }
     #masthead-with-text {
         padding: 95px 0;
-        height: 400px;
+        height: 30px;
     }
 }
 
