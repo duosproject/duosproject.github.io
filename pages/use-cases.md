@@ -5,7 +5,7 @@ title: "Use Cases"
 teaser:
 header:
     background-color: "#ffbb6c"
-    image:
+    image: duos_logo_small_black.png
 permalink: "/use-cases/"
 ---
 * Comprehensive Literature Review

@@ -4,7 +4,7 @@ show_meta: false
 title: "Team"
 header:
     background-color: "#ffbb6c"
-    image: 
+    image: duos_logo_small_black.png
 teaser:
 permalink: "/team/"
 ---

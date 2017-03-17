@@ -4,7 +4,7 @@ title: "Contact"
 meta_title: "Contact"
 header:
     background-color: "#ffbb6c"
-    image: 
+    image: duos_logo_small_black.png
 teaser:
 permalink: "/contact/"
 ---
