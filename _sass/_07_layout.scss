@@ -284,15 +284,19 @@ body.video cite { color: #fff; }
         text-transform: uppercase;
     }
 
+.footer-margin {
+    margin-top: 10px;
+}
 
 
 /* Subfooter
 ------------------------------------------------------------------- */
 
 #subfooter {
-    background: $subfooter-bg;
-    color: $subfooter-color;
-    padding-top: 30px;
+}
+
+#subfooter p {
+    float: right;
 }
 
 #subfooter-left ul.inline-list {
