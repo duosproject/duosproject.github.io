@@ -8,4 +8,10 @@ header:
 teaser:
 permalink: "/contact/"
 ---
+
+
 The best way to reach the DUOS team is via email at duos.project.luc@gmail.com.
+
+
+
+

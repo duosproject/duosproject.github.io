@@ -23,5 +23,5 @@ Student Research Assistants:
 - Christopher Beemer
 - Jordan Goodmanson
 - John Dwyer
-- Julia Cicale
-- Yauheni Mukavozchyk
+- [Julia Cicale](https://github.com/jcicale)
+- [Yauheni Mukavozchyk](https://github.com/ymukavozchyk)
