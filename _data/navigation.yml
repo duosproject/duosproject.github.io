@@ -1,6 +1,10 @@
 - title: About
   url: "/"
   side: left
+ 
+- title: Search
+  url: "http://duos-web.herokuapp.com/"
+  side: left
 
 - title: Use Cases
   url: "/use-cases/"
