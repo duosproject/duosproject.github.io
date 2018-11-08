@@ -20,8 +20,11 @@ The DUOS Team includes:
 Student Research Assistants:
 
 - Kelly Bryant
+- [Julia Cicale](https://github.com/jcicale)
+- [Yauheni Mukavozchyk](https://github.com/ymukavozchyk)
+- Faith Hemingway
+- Amelia Jerkatis
+- Maxim Raykov
 - Christopher Beemer
 - Jordan Goodmanson
 - John Dwyer
-- [Julia Cicale](https://github.com/jcicale)
-- [Yauheni Mukavozchyk](https://github.com/ymukavozchyk)
