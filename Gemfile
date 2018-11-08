@@ -10,4 +10,7 @@ end
 
 gem 'asciidoctor', '~> 1.5.4'
 gem 'coderay', '1.1.1'
+gem "ffi", ">= 1.9.24"
+
+
 
