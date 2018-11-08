@@ -31,4 +31,4 @@ Student Research Assistants:
 
 Full-Stack Developer:
 
--Ainsley McGrath
+- Ainsley McGrath
