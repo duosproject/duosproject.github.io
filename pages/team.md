@@ -22,9 +22,9 @@ Student Research Assistants:
 - Kelly Bryant
 - [Julia Cicale](https://github.com/jcicale)
 - [Yauheni Mukavozchyk](https://github.com/ymukavozchyk)
-- Faith Hemingway
-- Amelia Jerkatis
-- Maxim Raykov
+- [Faith Hemingway](https://www.linkedin.com/in/faithhemingway/)
+- [Amelia Jerkatis](https://www.linkedin.com/in/ameliajerkatis/)
+- [Maxim Raykov](https://www.linkedin.com/in/maxim-b-raykov/)
 - Christopher Beemer
 - Jordan Goodmanson
 - John Dwyer
