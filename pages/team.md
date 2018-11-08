@@ -28,3 +28,7 @@ Student Research Assistants:
 - Christopher Beemer
 - Jordan Goodmanson
 - John Dwyer
+
+Full-Stack Developer:
+
+-Ainsley McGrath
