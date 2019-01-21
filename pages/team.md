@@ -25,7 +25,7 @@ Student Research Assistants:
 - [Faith Hemingway](https://www.linkedin.com/in/faithhemingway/)
 - [Amelia Jerkatis](https://www.linkedin.com/in/ameliajerkatis/)
 - [Maxim Raykov](https://www.linkedin.com/in/maxim-b-raykov/)
-- Christopher Beemer
+- [Christopher Biemer](https://chrisbiemer.github.io/CB/)
 - Jordan Goodmanson
 - John Dwyer
 
